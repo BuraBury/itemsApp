@@ -1,17 +1,20 @@
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pacifico&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
 <div class="title-div">
   <form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
     <label>
-      <h1>Items:</h1>
-      <input type="text" formControlName="itemName">
+      <h1>Add your items:</h1>
+      <input class="text-area" type="text" formControlName="itemName">
     </label>
-    <button type="submit" [disabled]="!itemForm.valid">Submit</button>
-    <button type="reset">Reset</button>
+    <button class="button" type="submit" [disabled]="!itemForm.valid">Submit</button>
+    <input class="button" type="submit" onclick="window.location.reload()" value="Refresh"/>
+
   </form>
   <hr>
 </div>
 
-<ul>
+<ol>
   <li *ngFor='let item of items'>
     {{ item }}
   </li>
-</ul>
+</ol>
