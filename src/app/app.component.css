@@ -1,17 +1,20 @@
-.button{
+.button {
   margin-left: 5px;
   transition: 3s;
   border-radius: 8px;
   padding: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.button:hover{
+
+.button:hover {
   transform: scale(1.08);
   transition: 1.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
-.title-div{
+
+.title-div {
+  width: 100%;
   background: lightgray;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -22,22 +25,30 @@ h1 {
   font-size: 45px;
   color: #9b5f71;
   text-align: center;
-
+  transition: 0.5s;
 }
-body{
+
+h1:hover {
+  color: #fdfaf4;
+  transition: 0.5s;
+  cursor: cell;
+}
+
+body {
   background: #5d5c5c;
   color: #fcf4ec;
   font-size: 30px;
   font-family: 'Comfortaa', cursive;
 }
 
-.text-area{
+.text-area {
   border-radius: 5px;
   background: #fdfaf4;
   padding: 7px 10px;
   transition: 1s;
 }
-.text-area:focus{
+
+.text-area:focus {
   transition: 0.5s;
   transform: scale(1.02);
 }
