@@ -1,0 +1,31 @@
+button{
+  margin-left: 5px;
+  transition: 3s;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+  transform: scale(1.08);
+  transition: 1.5s;
+  opacity: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.title-div{
+  background: lightgray;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  font-size: 45px;
+  color: #5d5c5c;
+  text-align: center;
+
+}
+body{
+  background: #5d5c5c;
+  color: #fcf4ec;
+  font-size: 30px;
+}
+
