@@ -3,15 +3,14 @@
   transition: 1s;
   border-radius: 8px;
   padding: 5px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Comfortaa', cursive;
 }
 
 .button:hover {
   transition: 0.5s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
-  background: hsl(342, 24%, 70%);
+  background: hsl(0, 0%, 30%);
+  color: #fcf4ec;
 }
 
 .title-div {
@@ -63,5 +62,9 @@ ol{
   color: black;
   width: 40%;
   border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
+
 
