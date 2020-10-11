@@ -16,6 +16,7 @@
 
 .title-div {
   width: 100%;
+  opacity: 90%;
   background: lightgray;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -36,7 +37,7 @@ h1:hover {
 }
 
 body {
-  background: #5d5c5c;
+  background-image: url("https://www.rei.com/dam/camping-checklist-lg1.jpg");
   color: #fcf4ec;
   font-size: 30px;
   font-family: 'Comfortaa', cursive;
