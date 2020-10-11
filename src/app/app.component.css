@@ -1,6 +1,6 @@
 .button {
   margin-left: 5px;
-  transition: 3s;
+  transition: 1s;
   border-radius: 8px;
   padding: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -8,7 +8,7 @@
 }
 
 .button:hover {
-  transition: 1.5s;
+  transition: 0.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   background: hsl(342, 24%, 70%);
@@ -28,7 +28,7 @@ h1 {
   font-size: 45px;
   color: #9b5f71;
   text-align: center;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 h1:hover {
@@ -48,13 +48,13 @@ body {
   border-radius: 5px;
   background: #fdfaf4;
   padding: 7px 10px;
-  transition: 1s;
+  transition: 0.7s;
   margin-bottom: 30px;
 }
 
 .text-area:focus {
   transition: 0.5s;
-  transform: scale(1.02);
+  transform: scale(1.025);
 }
 
 ol{
